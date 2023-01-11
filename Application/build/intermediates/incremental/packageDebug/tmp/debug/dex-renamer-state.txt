@@ -1,4 +1,7 @@
-#Thu Dec 10 14:36:05 CST 2020
-base.0=/Users/bliss/Downloads/connectivity-samples/NetworkConnect/Application/build/intermediates/dex/debug/mergeDexDebug/out
-path.0=classes.dex
+#Wed Jan 11 11:09:05 CST 2023
+base.1=/Users/yas/Documents/GitHub/Android_networking_challenge/Application/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+path.1=classes.dex
+base.0=/Users/yas/Documents/GitHub/Android_networking_challenge/Application/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+path.0=classes.dex
