@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.android.networkconnect.databinding.FragmentEpisodesBinding
+import com.example.android.networkconnect.ui.adapter.item.EpisodeAdapter
 
 class EpisodesFragment : Fragment() {
 
@@ -30,12 +32,17 @@ class EpisodesFragment : Fragment() {
         _binding = FragmentEpisodesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
-        episodesViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+        episodesViewModel.onCreateView()
+
+        val recyclerview: RecyclerView = binding.episodesRecyclerview
+        recyclerview.layoutManager = LinearLayoutManager(this.context)
+        val adapter = EpisodeAdapter()
+        recyclerview.adapter = adapter
+
+        episodesViewModel.episodes.observe(viewLifecycleOwner, Observer {
+            adapter.setData(it)
         })
 
-        episodesViewModel.onCreateView()
         return root
     }
 

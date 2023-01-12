@@ -8,7 +8,11 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.android.networkconnect.databinding.FragmentLocationsBinding
+import com.example.android.networkconnect.ui.adapter.CharacterAdapter
+import com.example.android.networkconnect.ui.adapter.LocationAdapter
 
 class LocationsFragment : Fragment() {
 
@@ -30,12 +34,17 @@ class LocationsFragment : Fragment() {
         _binding = FragmentLocationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        locationsViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+        locationsViewModel.onCreateView()
+
+        val recyclerview: RecyclerView = binding.locationsRecyclerview
+        recyclerview.layoutManager = LinearLayoutManager(this.context)
+        val adapter = LocationAdapter()
+        recyclerview.adapter = adapter
+
+        locationsViewModel.locations.observe(viewLifecycleOwner, Observer {
+            adapter.setData(it)
         })
 
-        locationsViewModel.onCreateView()
         return root
     }
 

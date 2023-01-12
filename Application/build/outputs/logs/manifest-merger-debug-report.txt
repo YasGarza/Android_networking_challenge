@@ -16,6 +16,8 @@ MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] /Users/yas/.gradl
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/yas/.gradle/caches/transforms-2/files-2.1/5e1608a6a926b9424e72a3450aba37dc/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/05345ea0022dd46b10100179cb3c278c/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/c1368ac1481d19ba66a0f7c31a1ae0dc/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/68c3b9319e2b3a645a193b8791d3ca48/jetified-flexbox-3.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/321a586d9c5de88496a8985d959213cd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/89d8442529ab12a2736dda1e2986627e/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/0ab4047f6af9d5ed4b1ad851e6651428/navigation-fragment-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -42,7 +44,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yas/.gradle/cach
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/9d26ab32fe9264dcd11ac0cf6c93d2d7/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/723ec0a4d1dd7ac00abacbb358863eb5/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/b69c820903867c83cf5f6ea3ed5bd9a4/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/e5f3c2640d9ffd07b104615bbfec6115/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/28d6af443a08b575019c255bf3f39936/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/7aed4a536f61212cccaa241142bc7ec8/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
@@ -163,6 +164,10 @@ MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yas/.gradle/caches/tra
 MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/05345ea0022dd46b10100179cb3c278c/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/c1368ac1481d19ba66a0f7c31a1ae0dc/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/c1368ac1481d19ba66a0f7c31a1ae0dc/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/68c3b9319e2b3a645a193b8791d3ca48/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/68c3b9319e2b3a645a193b8791d3ca48/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/321a586d9c5de88496a8985d959213cd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/321a586d9c5de88496a8985d959213cd/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/89d8442529ab12a2736dda1e2986627e/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -215,8 +220,6 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yas/.gradle/caches/tra
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/723ec0a4d1dd7ac00abacbb358863eb5/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/b69c820903867c83cf5f6ea3ed5bd9a4/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/b69c820903867c83cf5f6ea3ed5bd9a4/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/76621659316dce08d4b4d735668c89ac/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/e5f3c2640d9ffd07b104615bbfec6115/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yas/.gradle/caches/transforms-2/files-2.1/e5f3c2640d9ffd07b104615bbfec6115/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yas/.gradle/caches/transforms-2/files-2.1/28d6af443a08b575019c255bf3f39936/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41

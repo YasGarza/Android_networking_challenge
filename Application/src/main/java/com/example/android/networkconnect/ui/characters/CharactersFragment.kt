@@ -4,13 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.networkconnect.databinding.FragmentCharactersBinding
+import com.example.android.networkconnect.ui.adapter.CharacterAdapter
 
 class CharactersFragment : Fragment() {
 
@@ -32,17 +32,17 @@ class CharactersFragment : Fragment() {
         _binding = FragmentCharactersBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        charactersViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
+        charactersViewModel.onCreateView()
+
+        val recyclerview: RecyclerView = binding.charactersRecyclerview
+        recyclerview.layoutManager = LinearLayoutManager(this.context)
+        val adapter = CharacterAdapter()
+        recyclerview.adapter = adapter
+
+        charactersViewModel.characters.observe(viewLifecycleOwner, Observer {
+            adapter.setData(it)
         })
 
-        charactersViewModel.onCreateView()
-        val recyclerview: RecyclerView = binding.charactersRecyclerview
-        recyclerview.layoutManager = GridLayoutManager(this.activity, 2)
-        charactersViewModel.characters.observe(viewLifecycleOwner, Observer {
-            //
-        })
         return root
     }
 
