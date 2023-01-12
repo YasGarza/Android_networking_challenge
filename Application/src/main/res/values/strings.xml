@@ -22,4 +22,8 @@
     <string name="clear_text">Clear</string>
     <string name="connection_error">Connection error.</string>
     <string name="fetch_cancelled">Fetch cancelled.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_characters">Characters</string>
+    <string name="title_episodes">Episodes</string>
+    <string name="title_locations">Locations</string>
 </resources>

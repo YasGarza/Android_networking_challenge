@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Yas's custom dimensions -->
+    <dimen name="defaultMargin">12dp</dimen>
+    <dimen name="interelementsPadding">6dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="hugeText">24sp</dimen>
+    <dimen name="largeText">19sp</dimen>
+    <dimen name="normalText">15sp</dimen>
+    <dimen name="smallText">12sp</dimen>
+    <dimen name="tinyText">10sp</dimen>
+</resources>
