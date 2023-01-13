@@ -4,6 +4,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.android.networkconnect.R
 import com.example.android.networkconnect.data.model.Character
 import java.lang.ref.WeakReference
@@ -33,5 +34,12 @@ class CharacterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         species?.text = item.species
         gender?.text = item.gender
         origin?.text = item.origin.name
+
+        image?.let {
+            Glide
+                .with(itemView.context)
+                .load(item.image)
+                .into(it)
+        }
     }
 }

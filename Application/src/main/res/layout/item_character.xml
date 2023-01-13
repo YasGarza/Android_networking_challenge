@@ -11,17 +11,18 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp">
+        android:layout_height="180dp">
 
         <ImageView
             android:id="@+id/character_image"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintDimensionRatio="w,1:1"
-            app:layout_constraintWidth_percent="0.4"
+            app:layout_constraintDimensionRatio="h,1:0.8"
             tools:background="#ff0000"/>
 
         <LinearLayout
@@ -32,8 +33,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintWidth_percent="0.6">
+            app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
                 android:id="@+id/character_name"
@@ -50,31 +50,19 @@
                 android:layout_marginEnd="@dimen/defaultMargin"
                 android:textSize="@dimen/normalText"
                 android:textColor="@color/secondaryTextColor"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/interelementsPadding"
                 tools:text="species"/>
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/character_gender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="@dimen/interelementsPadding">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="center"
-                    tools:background="#00ff00"/>
-
-                <TextView
-                    android:id="@+id/character_gender"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/defaultMargin"
-                    android:textSize="@dimen/normalText"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_gravity="center"
-                    tools:text="gender"/>
-
-            </LinearLayout>
+                android:layout_marginEnd="@dimen/defaultMargin"
+                android:textSize="@dimen/normalText"
+                android:textColor="@color/secondaryTextColor"
+                android:layout_marginTop="@dimen/interelementsPadding"
+                tools:text="gender"/>
 
             <TextView
                 android:id="@+id/character_origin"

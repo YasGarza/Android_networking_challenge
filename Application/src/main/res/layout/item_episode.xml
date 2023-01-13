@@ -31,14 +31,12 @@
                 tools:text="Episode name"/>
 
             <TextView
-                android:id="@+id/episode_code"
+                android:id="@+id/episode_characters"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
                 android:textSize="@dimen/normalText"
                 android:textColor="@color/secondaryTextColor"
-                android:paddingBottom="@dimen/interelementsPadding"
-                tools:text="Episode" />
+                tools:text="Characters: X"/>
 
             <TextView
                 android:id="@+id/episode_air_time"
@@ -51,12 +49,14 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/episode_characters"
+            android:id="@+id/episode_code"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="start"
             android:textSize="@dimen/normalText"
             android:textColor="@color/secondaryTextColor"
-            tools:text="Characters: X"/>
+            android:paddingBottom="@dimen/interelementsPadding"
+            tools:text="Episode" />
 
     </com.google.android.flexbox.FlexboxLayout>
 

@@ -31,14 +31,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a79e93-e664-4b56-8f82-3237c7293f09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/CharacterAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/LocationAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/EpisodeAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/EpisodeViewHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/LocationViewHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_episode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_location.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -50,16 +42,14 @@
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_characters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_characters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_episodes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_episodes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_locations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_locations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/item_character.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_character.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/item_episode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_episode.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/item_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,10 +268,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1673454590799" />
-    <state x="419" y="82" width="665" height="735" key="find.popup" timestamp="1673564796361">
+    <state x="419" y="82" width="665" height="735" key="find.popup" timestamp="1673567485717">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="419" y="82" width="665" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1673564796361" />
+    <state x="419" y="82" width="665" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1673567485717" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1673557084572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -292,7 +282,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

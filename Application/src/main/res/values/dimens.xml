@@ -5,10 +5,10 @@
 
     <!-- Yas's custom dimensions -->
     <dimen name="defaultMargin">12dp</dimen>
-    <dimen name="interelementsPadding">6dp</dimen>
+    <dimen name="interelementsPadding">2dp</dimen>
 
     <!-- Text sizes -->
-    <dimen name="hugeText">24sp</dimen>
+    <dimen name="hugeText">22sp</dimen>
     <dimen name="largeText">19sp</dimen>
     <dimen name="normalText">15sp</dimen>
     <dimen name="smallText">12sp</dimen>
