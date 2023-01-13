@@ -41,6 +41,7 @@ class EpisodesFragment : Fragment() {
 
         episodesViewModel.episodes.observe(viewLifecycleOwner, Observer {
             adapter.setData(it)
+            binding.charactersProgressbar.visibility = View.GONE
         })
 
         return root

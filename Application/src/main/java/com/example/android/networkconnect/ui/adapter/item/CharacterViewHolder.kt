@@ -16,6 +16,8 @@ class CharacterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private var species: TextView? = null
     private var gender: TextView? = null
     private var origin: TextView? = null
+    private var status: TextView? = null
+    private var statusIndicator: ImageView? = null
 
     init {
         findView()
@@ -27,6 +29,8 @@ class CharacterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         species = view.get()?.findViewById(R.id.character_species)
         gender = view.get()?.findViewById(R.id.character_gender)
         origin = view.get()?.findViewById(R.id.character_origin)
+        status = view.get()?.findViewById(R.id.character_status)
+        statusIndicator = view.get()?.findViewById(R.id.character_status_indicator)
     }
 
     fun updateView(item: Character) {
@@ -34,12 +38,19 @@ class CharacterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         species?.text = item.species
         gender?.text = item.gender
         origin?.text = item.origin.name
+        status?.text = item.status
 
         image?.let {
             Glide
                 .with(itemView.context)
                 .load(item.image)
                 .into(it)
+        }
+
+        when (item.status) {
+            "Dead" -> statusIndicator?.setBackgroundResource(R.drawable.dead_dot)
+            "Alive" -> statusIndicator?.setBackgroundResource(R.drawable.alive_dot)
+            else -> statusIndicator?.setBackgroundResource(R.drawable.unknown_dot)
         }
     }
 }

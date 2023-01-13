@@ -4,14 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.networkconnect.databinding.FragmentLocationsBinding
-import com.example.android.networkconnect.ui.adapter.CharacterAdapter
 import com.example.android.networkconnect.ui.adapter.LocationAdapter
 
 class LocationsFragment : Fragment() {
@@ -43,6 +41,7 @@ class LocationsFragment : Fragment() {
 
         locationsViewModel.locations.observe(viewLifecycleOwner, Observer {
             adapter.setData(it)
+            binding.charactersProgressbar.visibility = View.GONE
         })
 
         return root

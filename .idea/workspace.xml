@@ -31,15 +31,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a79e93-e664-4b56-8f82-3237c7293f09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/alive_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/dead_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_gender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_origin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/unknown_dot.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_characters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_characters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_episodes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_episodes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_locations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_locations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/characters/CharactersFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/episodes/EpisodesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/locations/LocationsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/item_character.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/item_character.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +69,9 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Sealed Class" />
         <option value="layoutResourceFile" />
-        <option value="Kotlin Class" />
         <option value="valueResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -80,14 +89,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/src/main/res/drawable" />
     <property name="memory.settings.postsync.last.time.stamp" value="1673556126922" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Application/src/main/res/color" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Application/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/Application/src/main/res/layout" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.android.networkconnect.presentation" />
@@ -99,8 +108,10 @@
       <recent name="com.example.android.networkconnect.ui.adapter" />
       <recent name="com.example.android.networkconnect.ui" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Application/src/main/res/layout" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Application/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/Application/src/res/drawable" />
+      <recent name="$PROJECT_DIR$/Application/src/main/res/color" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,42 +237,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="415" y="245" width="909" height="409" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1673558217938" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1673565270438">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1673621383020">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673565270438" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673621383020" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.828@0.25.1440.828" timestamp="1673561791704" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1673565270437">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1673621383018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1673565270437" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1673621383018" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.828@0.25.1440.828" timestamp="1673561791702" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1673565270436">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1673621383016">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1673565270436" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1673621383016" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.828@0.25.1440.828" timestamp="1673561791699" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1673565270438">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1673621383019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1673565270438" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1673621383019" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.828@0.25.1440.828" timestamp="1673561791703" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1673560424713">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1673576822684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673560424713" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1673560424712">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1673576822684" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1673576822683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1673560424712" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1673560424711">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1673576822683" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1673576822682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1673560424711" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1673560424713">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1673576822682" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1673576822683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1673560424713" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1673576822683" />
     <state x="308" y="197" key="IDE.errors.dialog" timestamp="1673569810457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -270,10 +281,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1673454590799" />
-    <state x="419" y="82" width="665" height="735" key="find.popup" timestamp="1673572605777">
+    <state x="419" y="82" width="665" height="735" key="find.popup" timestamp="1673621095079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="419" y="82" width="665" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1673572605777" />
+    <state x="419" y="82" width="665" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1673621095079" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1673572351807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -284,7 +295,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/networkconnect/ui/adapter/item/CharacterViewHolder.kt</url>
-          <line>32</line>
+          <line>36</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

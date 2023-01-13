@@ -43,36 +43,89 @@
                 android:textColor="@color/textColor"
                 tools:text="name" />
 
-            <TextView
-                android:id="@+id/character_species"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/defaultMargin"
-                android:textSize="@dimen/normalText"
-                android:textColor="@color/secondaryTextColor"
-                android:textStyle="italic"
-                android:layout_marginTop="@dimen/interelementsPadding"
-                tools:text="species"/>
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/interelementsPadding">
 
-            <TextView
-                android:id="@+id/character_gender"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/defaultMargin"
-                android:textSize="@dimen/normalText"
-                android:textColor="@color/secondaryTextColor"
-                android:layout_marginTop="@dimen/interelementsPadding"
-                tools:text="gender"/>
+                <ImageView
+                    android:id="@+id/character_status_indicator"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/unknown_dot"/>
 
-            <TextView
-                android:id="@+id/character_origin"
-                android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/character_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normalText"
+                    android:textColor="@color/secondaryTextColor"
+                    tools:text="Dead"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/character_species"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normalText"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textStyle="italic"
+                    tools:text="gender"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/defaultMargin"
-                android:textSize="@dimen/normalText"
-                android:textColor="@color/secondaryTextColor"
-                android:layout_marginTop="@dimen/interelementsPadding"
-                tools:text="Origin"/>
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/interelementsPadding">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/ic_gender"/>
+                <TextView
+                    android:id="@+id/character_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normalText"
+                    android:textColor="@color/secondaryTextColor"
+                    tools:text="gender"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/interelementsPadding">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/ic_origin"/>
+
+                <TextView
+                    android:id="@+id/character_origin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normalText"
+                    android:textColor="@color/secondaryTextColor"
+                    tools:text="Origin"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
