@@ -17,15 +17,26 @@
 <resources>
 
     <!-- Activity themes -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/darkPrimaryColor</item>
+        <item name="colorOnPrimary">@color/textColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
 
-    <!--<style name="Theme.Base" parent="android:Theme.Light" />
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/textColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
 
-    <style name="Theme.Sample" parent="Theme.Base" />
 
-    <style name="AppTheme" parent="Theme.Sample" />-->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light"/>
     <!-- Widget styling -->
-
     <style name="Widget" />
 
     <style name="Widget.SampleMessage">
